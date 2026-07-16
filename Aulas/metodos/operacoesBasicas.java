@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class operatesBasics {
+public class operatesBasicas {
 
     public static void soma(){
         System.out.println("Atualmente você está na operação de somar");
@@ -83,13 +83,13 @@ public class menuDeOperacoes {
         int opcao = scanner.nextInt();
 
         if(opcao == 1){
-            operatesBasics.soma();
+            operatesBasicas.soma();
         } else if(opcao == 2){
-            operatesBasics.subtracao();
+            operatesBasicas.subtracao();
         } else if(opcao == 3){
-            operatesBasics.multiplicacao();
+            operatesBasicas.multiplicacao();
         } else if(opcao == 4){
-            operatesBasics.divisao();
+            operatesBasicas.divisao();
         }
 
     }
